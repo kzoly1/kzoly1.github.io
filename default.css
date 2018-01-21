@@ -6,7 +6,7 @@
 }
 
 body {
-	background: url(images/img01.jpg);
+	background: url(img01.jpg);
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
 	color: #972F1C;
@@ -37,13 +37,13 @@ a:hover {
 
 #header {
 	height: 160px;
-	background: url(images/img02.jpg);
+	background: url(img02.jpg);
 }
 
 #logo {
 	height: 40px;
 	padding-right: 130px;
-	background: url(images/img03.jpg) no-repeat right top;
+	background: url(img03.jpg) no-repeat right top;
 	text-align: right;
 }
 
@@ -90,7 +90,7 @@ a:hover {
 }
 
 #menu li.current_page_item a {
-	background: url(images/img04.jpg) repeat-x;
+	background: url(img04.jpg) repeat-x;
 	color: #647472;
 }
 
@@ -118,18 +118,18 @@ a:hover {
 #content {
 	float: left;
 	width: 680px;
-	background: url(images/img09.jpg) no-repeat right top;
+	background: url(img09.jpg) no-repeat right top;
 }
 
 /* Post Block */
 
 .post {
-	background: url(images/img06.jpg) repeat-y 147px 0;
+	background: url(img06.jpg) repeat-y 147px 0;
 }
 
 .post .bgbottom {
 	height: 60px;
-	background: url(images/img07.jpg) no-repeat 147px 0;
+	background: url(img07.jpg) no-repeat 147px 0;
 }
 
 
@@ -151,7 +151,7 @@ a:hover {
 .post .title {
 	margin-left: 149px;
 	padding: 40px 40px 20px 20px;
-	background: url(images/img08.jpg) no-repeat;
+	background: url(img08.jpg) no-repeat;
 }
 
 .post .title a {
@@ -165,12 +165,12 @@ a:hover {
 .post .entry {
 	margin: 0 33px 0 149px;
 	padding: 20px 20px 0 20px;
-	background: url(images/img11.jpg) no-repeat;
+	background: url(img11.jpg) no-repeat;
 }
 
 .post .entry a:link {
 	padding: 0 5px;
-	background: #E29269 url(images/img12.gif);
+	background: #E29269 url(img12.gif);
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -198,12 +198,12 @@ a:hover {
 	float: left;
 	width: 325px;
 	margin-left: 10px;
-	background: url(images/img14.jpg) repeat-y;
+	background: url(img14.jpg) repeat-y;
 }
 
 #contentbar li ul {
 	padding: 0 20px 40px 20px;
-	background: url(images/img15.jpg) no-repeat left bottom;
+	background: url(img15.jpg) no-repeat left bottom;
 }
 
 #contentbar li li {
@@ -211,12 +211,12 @@ a:hover {
 	width: auto;
 	margin: 0;
 	padding: 5px 0 5px 30px;
-	background: url(images/img18.gif) no-repeat left center;
+	background: url(img18.gif) no-repeat left center;
 }
 
 #contentbar .widgettitle {
 	padding: 45px 20px 20px 20px;
-	background: url(images/img13.jpg) no-repeat;
+	background: url(img13.jpg) no-repeat;
 	letter-spacing: -2px;
 }
 
@@ -237,12 +237,12 @@ a:hover {
 #sidebar li {
 	position: relative;
 	margin-bottom: 20px;
-	background: url(images/img21.jpg) repeat-y;
+	background: url(img21.jpg) repeat-y;
 }
 
 #sidebar li ul{
 	padding: 20px 20px 30px 20px;
-	background: url(images/img22.jpg) no-repeat left bottom;
+	background: url(img22.jpg) no-repeat left bottom;
 }
 
 #sidebar li li {
@@ -252,19 +252,19 @@ a:hover {
 
 #sidebar .widgettitle {
 	padding: 15px;
-	background: url(images/img20.jpg) no-repeat;
+	background: url(img20.jpg) no-repeat;
 	letter-spacing: -2px;
 	color: #AF5B19;
 }
 
 #sidebar a:link {
 	padding: 0 5px;
-	background: #FFBF00 url(images/img23.gif);
+	background: #FFBF00 url(img23.gif);
 	text-decoration: none;
 }
 
 #sidebar a:hover {
-	background: #E29269 url(images/img12.gif);
+	background: #E29269 url(img12.gif);
 	color: #FFFFFF;
 }
 
@@ -295,7 +295,7 @@ a:hover {
 	height: 76px;
 	margin: 0 auto;
 	padding: 30px 0;
-	background: url(images/img24.jpg) no-repeat left center;
+	background: url(img24.jpg) no-repeat left center;
 }
 
 #footer p {
