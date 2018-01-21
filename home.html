@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+
+<body>
+<!-- start header -->
+<div id="header">
+<div id="logo">
+<p>BremaBikes</p>
+</div>
+<div id="menu">
+<ul>
+<li class="current_page_item"><a href="home.html#">Acasa</a></li>
+<li><a href="magazin.html">Magazin</a></li>
+<li><a href="service.html">Service</a></li>
+<li><a href="despre.html">Despre Noi</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+<!-- end header -->
+<hr /><!-- start page -->
+<div id="page"><!-- start content -->
+<div id="content">
+<div class="post">
+<!-- 
+<script>
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+document.getElementById("time").innerHTML = d.getDate();
+document.getElementById("time").innerHTML +=days[d.getDay()];
+
+</script>
+</p>-->
+
+<div class="entry">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="slide/slide1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="slide/slide2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="slide/slide3.jpg" style="width:100%">
+ 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4500); 
+}
+</script>
+<p>Bine ati venit! Daca va intereseaza un produs din magazinul nostru, daca aveti nevoie de informatii suplimentare sau sustinere tehnica, nu ezitati sa ne contactati. Vom face tot posibilul pentru a fi multumiti de serviciile noastre!</p>
+</div>
+<div class="bgbottom" style="clear: both;"></div>
+</div>
+<div id="contentbar">
+
+</div>
+</div>
+<!-- end content -->
+<!-- start sidebar -->
+<div id="sidebar">
+<ul>
+
+<li id="tag_cloud" class="widget widget_tag_cloud">
+<h2 class="widgettitle">Parteneri</h2>
+<a href="#" style="font-size: 12pt;">SHIMANO</a>
+<a href="#" style="font-size: 11pt;">AON</a>
+<a href="#" style="font-size: 10pt;">G-FORM</a>
+<a href="#" style="font-size: 9pt;">WELLGO</a>
+<a href="#" style="font-size: 8pt;">ABUS</a>
+<a href="#" style="font-size: 8pt;">GIRO</a>
+<a href="#" style="font-size: 8pt;">DEUTER</a>
+<a href="#" style="font-size: 8pt;">CANNONDALE</a>
+</li>
+<li id="categories-1" class="widget widget_categories">
+<h2 class="widgettitle">Informatii</h2>
+<ul>
+<li><a href="#">In data de 18ianuaria am primit marfa noua!</a></li>
+
+</ul>
+</li>
+<li id="archives" class="widget widget_archives">
+<h2 class="widgettitle">Oferte speciale</h2>
+<ul>
+<li><a href="#">Acum iti oferim revizie gratuita!</a></li>
+<li><a href="#">Pentru toate produsele cannondale a reducere 30%!</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<!-- end sidebar --></div>
+<!-- end page -->
+<hr /><!-- start footer -->
+<div id="footer">
+<img src="images/shimano.jpg" alt="SHIMANO"style="width:300;height:35px;" >
+
+
+</div>
+<!-- end footer -->
+<div style="font-size: 1.6em; text-align: center; margin-top: 1em; margin-bottom: 1em;">By Zoly
+</div>
+</body></html>
